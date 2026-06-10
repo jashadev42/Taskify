@@ -1,0 +1,27 @@
+{
+  "name": "taskify",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@neondatabase/auth": "latest",
+    "@neondatabase/auth-ui": "latest",
+    "@neondatabase/serverless": "^0.10.4",
+    "next": "^16.2.9",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.0",
+    "eslint": "^9.28.0",
+    "eslint-config-next": "^16.2.9",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^4.3.0"
+  }
+}
